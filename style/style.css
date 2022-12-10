@@ -3,33 +3,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*Fonte importada do fonts.googleapis.com*/
 
 /*
-1. Configurações globais: As configurações aqui definidas são utilizadas em toda página.
-2. Váriaveis.
+01. Configurações globais: As configurações aqui definidas são utilizadas em toda página.
+22. Váriaveis.
 */
 
-/*1*/
+/*
+=================( 01 )=================
+*/
 *{ 
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     font-family: Poppins;
-    font-weight: 300, 600;
+    font-weight: 300;
 }
-
-/*2*/
+/*
+=================( 02 )=================
+*/
 :root { 
     --Body-bg: hsl(270, 60%, 98%); /*Cor de fundo do corpo da página*/
     --Cor01: hsl(270, 50%, 73%); /*Cor mais utilizada na estilização da página*/
-  }
+}
+/*
+========================================
 
-/*Estilização do corpo da página*/
+Corpo da página*/
+
 body{
     display: flex;
     background-color: var(--Body-bg);
     justify-content: center;
-    
 }
-/*Estilização da parte principal da página*/
+/*Fim corpo da página
+
+========================================
+
+Principal*/
 main{
     display: flex;
     background-color: antiquewhite;
@@ -38,22 +47,35 @@ main{
     justify-content: center;
     align-items: center;
 }
+/*Fim principal
 
+========================================
+
+Imagem de "Perfil"*/
 #pic{
     border: 0.1em solid var(--Cor01);
     border-radius: 50%;    
     padding: 0.3em;
 }
+/*Fim imagem de "Perfil"
 
+========================================
+
+Botões-links*/
 .box{
+    display: flex;
     border: 0.1em solid var(--Cor01);
     padding: 0.7em 7em;
     margin: 0.5em;
-}
-.box a{
     text-decoration: none;
     color: var(--Cor01);
 }
+/*Fim botões-links
+
+========================================
+
+Redes Sociais*/
+
 section.social{
     display: flex;
     margin-top: 0.5em;
@@ -62,3 +84,9 @@ section.social{
 section.social a{
     padding: 2em 1.1em;
 }
+
+/*
+Fim Redes Sociais
+
+========================================
+*/
