@@ -1,0 +1,64 @@
+@charset "UTF-8"; /*Evita a inconpatibilidade com caracteres especiais*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*Fonte importada do fonts.googleapis.com*/
+
+/*
+1. Configurações globais: As configurações aqui definidas são utilizadas em toda página.
+2. Váriaveis.
+*/
+
+/*1*/
+*{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 300, 600;
+}
+
+/*2*/
+:root { 
+    --Body-bg: hsl(270, 60%, 98%); /*Cor de fundo do corpo da página*/
+    --Cor01: hsl(270, 50%, 73%); /*Cor mais utilizada na estilização da página*/
+  }
+
+/*Estilização do corpo da página*/
+body{
+    display: flex;
+    background-color: var(--Body-bg);
+    justify-content: center;
+    
+}
+/*Estilização da parte principal da página*/
+main{
+    display: flex;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic{
+    border: 0.1em solid var(--Cor01);
+    border-radius: 50%;    
+    padding: 0.3em;
+}
+
+.box{
+    border: 0.1em solid var(--Cor01);
+    padding: 0.7em 7em;
+    margin: 0.5em;
+}
+.box a{
+    text-decoration: none;
+    color: var(--Cor01);
+}
+section.social{
+    display: flex;
+    margin-top: 0.5em;
+    padding:0 4em;
+}
+section.social a{
+    padding: 2em 1.1em;
+}
