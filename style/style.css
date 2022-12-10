@@ -30,22 +30,27 @@
 Corpo da página*/
 
 body{
-    display: flex;
     background-color: var(--Body-bg);
-    justify-content: center;
+    background-size: cover;
+    min-width: 300px;
 }
 /*Fim corpo da página
 
 ========================================
 
 Principal*/
-main{
+main{  
     display: flex;
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5em;
+
+}
+a{
+    text-decoration: none;
+    color: var(--Cor01);
 }
 /*Fim principal
 
@@ -53,9 +58,12 @@ main{
 
 Imagem de "Perfil"*/
 #pic{
+    height: 155px;
+    width: 155px;
     border: 0.1em solid var(--Cor01);
     border-radius: 50%;    
     padding: 0.3em;
+    margin-bottom: 5px;
 }
 /*Fim imagem de "Perfil"
 
@@ -67,8 +75,6 @@ Botões-links*/
     border: 0.1em solid var(--Cor01);
     padding: 0.7em 7em;
     margin: 0.5em;
-    text-decoration: none;
-    color: var(--Cor01);
 }
 /*Fim botões-links
 
