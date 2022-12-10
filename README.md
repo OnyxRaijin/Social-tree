@@ -6,7 +6,7 @@
 # Acesse o projeto aqui!
 https://github.com/OnyxRaijin/Social-tree
 
-Fale comigo!
+#Fale comigo!
 
-Linkedin: https://www.linkedin.com/in/saulo-marreiro-21313524b/ <br>
+Linkedin: https://www.linkedin.com/in/saulo-marreiro-21313524b/<br>
 Instagram : https://www.instagram.com/onyx.priiv/
