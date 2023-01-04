@@ -11,18 +11,17 @@
 =================( 01 )=================
 */
 *{ 
-    padding: 0%;
-    margin: 0%;
     box-sizing: border-box;
     font-family: Poppins;
-    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
 }
 /*
 =================( 02 )=================
 */
 :root { 
-    --Body-bg: hsl(270, 60%, 98%); /*Cor de fundo do corpo da página*/
-    --Cor01: hsl(270, 50%, 73%); /*Cor mais utilizada na estilização da página*/
+    --Body-bg: #faf7fd; /*Cor de fundo do corpo da página*/
+    --Cor01: #ba98dd; /*Cor mais utilizada na estilização da página*/
 }
 /*
 ========================================
@@ -30,7 +29,9 @@
 Corpo da página*/
 
 body{
+    display: flex;
     background-color: var(--Body-bg);
+    justify-content: center;
     background-size: cover;
     min-width: 300px;
 }
@@ -41,9 +42,8 @@ body{
 Principal*/
 main{  
     display: flex;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding-top: 5em;
 }
@@ -57,12 +57,12 @@ a{
 
 Imagem de "Perfil"*/
 #pic{
-    height: 155px;
-    width: 155px;
     border: 0.1em solid var(--Cor01);
     border-radius: 50%;    
-    padding: 0.3em;
     margin-bottom: 5px;
+    padding: 0.3em;
+    height: 155px;
+    width: 155px;
 }
 /*Fim imagem de "Perfil"
 
